@@ -1,18 +1,20 @@
-## Program to check if a sequence of starting numbers (n > 37) with repeatedly appending digits will be always composite or will there be primes
-## Son Vu
-## Advisor: Dr. David Garth
+/*Program to check if a sequence of starting numbers (n > 37) with repeatedly appending digits will be always composite or will there be primes
+Son Vu
+Advisor: Dr. David Garth
+Truman State University
+ n is the number of digits including appending digits
+ d is the tens digit
+u is the ones digit
+*/
 
-compseqgen(n, d, u) = {local(v,p, f);
 
-v = vector(n);
-v[1] = d;
-v[2] = u;
+compseqgen(n,k,d) = {local(v);
 
-p = vector(n);
+e = length(digits(k));
 
-for(i = 3, n, v[i] =1);
-for(i = 1, n-1, for(j = 1, i+1, p[i] = p[i] +10^(j-1)*v[i-j+2]));
+v=vector(n);
 
-return(p)
-
+for(i=1,n,v[i]=10^i*k+d*((10^i-1)/9));return(v)
+return(v)
 }
+
