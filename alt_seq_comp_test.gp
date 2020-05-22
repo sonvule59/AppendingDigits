@@ -1,6 +1,6 @@
 \\\\\\ Alternating digits 
 
-alternateseq(n, k, d) = {
+alternateseqcomptest(n, k, d) = {
 
 e = length(digits(k));
 v=vector(n);
