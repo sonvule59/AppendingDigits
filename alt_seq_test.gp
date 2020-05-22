@@ -1,8 +1,8 @@
-altseqtest(n,m,k,d)={local(p),
+altseqtest(n,m,d)={local(p),
 
 p=vector(m);
 
-for(k=1,m,p[i]=alternateseq(n,k,d));
+for(k=1,m,p[k]=alternateseq(n,k,d));
 
 return(p)
 
