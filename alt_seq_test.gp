@@ -1,11 +1,9 @@
-
-
-n=20;
-m=20;
-d=1;
+altseqtest(n,m,k,d)={local(p),
 
 p=vector(m);
 
 for(k=1,m,p[i]=alternateseq(n,k,d));
 
-p
+return(p)
+
+}
