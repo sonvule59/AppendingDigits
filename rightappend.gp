@@ -3,7 +3,7 @@
 */
 
 
-compseqgen(n,k,d) = {local(v);
+rightappend(n,k,d) = {local(v);
 
 e = length(digits(k));
 
