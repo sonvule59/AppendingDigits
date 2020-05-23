@@ -1,8 +1,11 @@
 \\\\\\ Alternating digits 
 
+\\n is the number of appended digits added to both side. Code will stop when both sides have n digits.
+\\k is the number intially added in which we want to test
+\\d is the value of the digits - range of value is from 1-9
 
 altgen(n, k, d) = {
-
+    
 e = length(digits(k));
 v=vector(n);
 

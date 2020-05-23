@@ -2,6 +2,9 @@
 
 \\\\\\\\\\\\\\\\\\\\\\\\\
 
+\\n is the number of appended digits added to both side. Code will stop when both sides have n digits.
+\\k is the number intially added in which we want to test
+\\d is the value of the digits - range of value is from 1-9
 
 leftappend(n, k, d) = {local(v); \\\\Start of function
 
