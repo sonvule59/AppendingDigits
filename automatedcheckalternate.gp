@@ -18,12 +18,5 @@ a = isprime(v);
 return (a);
 }
 
-autocheck() = {
-
-    for(i = 1, 2200,
-    if (alternateseq() = 0,break)
-    )
-
-}
 
 
