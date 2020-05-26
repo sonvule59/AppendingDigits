@@ -1,4 +1,4 @@
-altseqtest(n,m,d)={local(p);
+altseqtest(n,m,d)={local(p,onecount,ones,kcount);
 
 p=vector(m);
 
@@ -18,6 +18,7 @@ k=1;
 while(kcount<=onecount,
 ones[kcount]=if(p[k]==1,k,ones[kcount]);
 kcount=if(p[k]==1,kcount+1,kcount);
+k=k+1
 )
 
 return(ones)
