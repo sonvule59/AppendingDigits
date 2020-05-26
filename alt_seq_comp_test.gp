@@ -7,7 +7,7 @@
 \\This program outputs the first value of i for which s_i is prime, where s_i is the alternate appending sequence
 \\If i=n-1, then the whole sequence is composite
 
-alternateseqcomptest(n, k, d) = {
+altseqcomptest(n, k, d) = {
 
 
 
