@@ -1,4 +1,4 @@
-altseqtest(n,m,d)={local(p),
+altseqtest(n,m,d)={local(p);
 
 p=vector(m);
 
