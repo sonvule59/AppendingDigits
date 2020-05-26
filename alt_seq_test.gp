@@ -19,7 +19,7 @@ while(kcount<=onecount,
 ones[kcount]=if(p[k]==1,k,ones[kcount]);
 kcount=if(p[k]==1,kcount+1,kcount);
 k=k+1
-)
+);
 
 return(ones)
 
