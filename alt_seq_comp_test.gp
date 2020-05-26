@@ -4,6 +4,9 @@
 \\k is the number intially added in which we want to test
 \\d is the value of the digits - range of value is from 1-9
 
+\\This program outputs the first value of i for which s_i is composite.  
+\\If i=n-1, then the whole sequence is composite
+
 alternateseqcomptest(n, k, d) = {
 
 
