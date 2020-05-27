@@ -10,7 +10,7 @@
 
 altseqcomptestbaseb(n, k, d,b) = {
 
-z = fromdigits(digits(k,b))
+z = fromdigits(digits(k,b));
 
 e = length(digits(z));
 
