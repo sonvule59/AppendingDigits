@@ -27,7 +27,7 @@ kcount=1;
 k=1;
 
 while(kcount<=onecount,
-ones[kcount]=if(p[k]==1,fromdigits(binary(k)),ones[kcount]);
+ones[kcount]=if(p[k]==1,fromdigits(digits(k,b)),ones[kcount]);
 kcount=if(p[k]==1,kcount+1,kcount);
 k=k+1
 );
