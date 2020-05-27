@@ -1,4 +1,4 @@
-altseqtest(n,m,d)={local(p,onecount,ones,kcount);
+altseqseedsearch(n,m,d)={local(p,onecount,ones,kcount);
 
 p=vector(m);
 
