@@ -8,12 +8,12 @@
 \\This program generates the composite sequence kd, dkd, dkdd, ddkdd, ddkddd, etc, up to n d's on each side of k
 
 altgenbaseb(n, k, d,b) = {
-    
-e = length(digits(k));
 
 v=vector(n);
 
 basebk=fromdigits(digits(k,b));
+
+e = length(digits(k));
 
 \\\ Divide into two cases: i is even or i is odd
 
