@@ -13,7 +13,7 @@ v=vector(n);
 
 basebk=fromdigits(digits(k,b));
 
-e = length(digits(k));
+e = length(digits(basebk));
 
 \\\ Divide into two cases: i is even or i is odd
 
