@@ -15,7 +15,7 @@ v=vector(n);
 \\\ Divide into two cases: i is even or i is odd
 
 i=2;
-v[1]=10*k+d;
+v[1]=10*k+a;
 
 while(i<n && isprime(v[i-1])==0,
 v[i]= if(i%2 == 0,((10^(e+(i/2))*d+a)*((10^(i/2)- 1)/9) + 10^(i/2) * k),
