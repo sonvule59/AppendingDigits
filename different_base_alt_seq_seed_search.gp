@@ -1,4 +1,4 @@
-altseqtestbaseb(n,m,d,b)={local(p,onecount,ones,kcount);
+altseqseedsearchbaseb(n,m,d,b)={local(p,onecount,ones,kcount);
 
 \\This program runs through all values of k from 1 to m, 
 \\generates the alternating appending sequence for that value of k, in base b
