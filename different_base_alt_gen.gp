@@ -20,5 +20,10 @@ e = length(digits(basebk));
 for(i=1,n,v[i]= if(i%2 == 0,((10^(e+(i/2)) + 1)*((10^(i/2)- 1)/9)*d + 10^(i/2) * basebk),
 ((10^(e+(i+1)/2)*(10^((i-1)/2) - 1)/9)+(10^((i+1)/2) -1 )/9)*d + (10^((i+1)/2))*basebk;));
 
+for(i=1,n,v[i]=fromdigits(digits(v[i]),b));
+
 return (v);
+
+
+
 }
