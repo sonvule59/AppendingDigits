@@ -4,7 +4,7 @@
 \\k is the number intially added in which we want to test
 \\d is the value of the digits - range of value is from 1-9
 
-\\This program generates the composite sequence kd, dkd, dkdd, ddkdd, ddkddd, etc, up to n d's on each side of k
+\\This program generates the composite sequence kd, dkd, dkdd, ddkdd, ddkddd, etc, up to n ds on each side of k
 
 altgen(n, k, d) = {
     
