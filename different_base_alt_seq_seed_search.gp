@@ -1,4 +1,4 @@
-altseqseedsearchbaseb(n,m,d,b)={local(p,onecount,ones,kcount);
+altseqseedsearchbaseb(n,j,m,d,b)={local(p,onecount,ones,kcount);
 
 \\This program runs through all values of k from 1 to m, 
 \\generates the alternating appending sequence for that value of k, in base b
@@ -15,10 +15,10 @@ p=vector(m);
 \\if the output of altseqcomptestbaseb is less than n-1, then the alternating appending sequence
 \\has a prime number somewhere before the last term of the appending sequence.
 
-for(k=1,m,p[k]=if(altseqcomptestbaseb(n,k,d,b)==n-1,1,0));
+for(k=j,m,p[k]=if(altseqcomptestbaseb(n,k,d,b)==n-1,1,0));
 
 onecount=0;
-for(k=1,m,onecount=if(p[k]==1,onecount+1,onecount));
+for(k=j,m,onecount=if(p[k]==1,onecount+1,onecount));
 
 ones=vector(onecount);
 
